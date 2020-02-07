@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="mapper.QuarterbusinessMapper" >
+  <resultMap id="BaseResultMap" type="pojo.Quarterbusiness" >
+    <id column="Qdate" property="qdate" jdbcType="VARCHAR" />
+    <result column="Qtu" property="qtu" jdbcType="VARCHAR" />
+    <result column="Qoe" property="qoe" jdbcType="VARCHAR" />
+    <result column="Qrm" property="qrm" jdbcType="VARCHAR" />
+    <result column="Qst" property="qst" jdbcType="VARCHAR" />
+    <result column="Qpr" property="qpr" jdbcType="VARCHAR" />
+  </resultMap>
+  
+</mapper>

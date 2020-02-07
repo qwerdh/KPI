@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="mapper.MonthcheckMapper" >
+  <resultMap id="BaseResultMap" type="pojo.Monthcheck" >
+    <id column="Mcdate" property="mcdate" jdbcType="VARCHAR" />
+    <result column="Mcde" property="mcde" jdbcType="VARCHAR" />
+    <result column="Mcpr" property="mcpr" jdbcType="VARCHAR" />
+    <result column="Mcmc" property="mcmc" jdbcType="VARCHAR" />
+    <result column="Mcip" property="mcip" jdbcType="VARCHAR" />
+    <result column="Mcfc" property="mcfc" jdbcType="VARCHAR" />
+  </resultMap>
+ 
+</mapper>
